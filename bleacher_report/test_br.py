@@ -91,6 +91,3 @@ class brTest(unittest.TestCase):
 
     def tearDown(self):
         self.driver.close()
-
-
-unittest.main
