@@ -93,4 +93,4 @@ class brTest(unittest.TestCase):
         self.driver.close()
 
 
-unittest.main()
+unittest.main
