@@ -12,6 +12,7 @@ from selenium import webdriver
 
 BR_TITLE = 'Bleacher Report | Sports. Highlights. News. Now.'
 
+
 # This smoke test for the BR homepage uses the Selenium Chrome webdriver, and assumes that the driver exists somewhere
 # in the execution path.
 class brTest(unittest.TestCase):
@@ -90,5 +91,6 @@ class brTest(unittest.TestCase):
 
     def tearDown(self):
         self.driver.close()
+
 
 unittest.main()
